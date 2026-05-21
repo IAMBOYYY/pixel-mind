@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#06060F"/>
+<title>Privacy Policy — PixelMind AI</title>
+<meta name="description" content="Privacy Policy for PixelMind AI — Free text-to-image generator."/>
+<meta name="robots" content="index, follow"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#06060F;--bg1:#0C0C1A;--bg2:#111126;
+  --border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);
+  --p:#7C3AED;--p2:#9F67FF;--p3:#C4B5FD;
+  --accent:#22D3EE;
+  --text:#F1F0FF;--text2:#A09EC0;--text3:#5E5C80;
+  --font-head:'Syne',sans-serif;--font-body:'DM Sans',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-body);background:var(--bg);color:var(--text);
+  min-height:100vh;-webkit-font-smoothing:antialiased;line-height:1.7;
+}
+
+/* ── Header ── */
+.site-header{
+  position:sticky;top:0;z-index:10;
+  background:rgba(6,6,15,0.95);backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:14px 20px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand-logo{
+  width:32px;height:32px;border-radius:9px;
+  background:linear-gradient(135deg,var(--p),var(--accent));
+  display:flex;align-items:center;justify-content:center;font-size:15px;
+  box-shadow:0 4px 14px rgba(124,58,237,0.4);
+}
+.brand-name{
+  font-family:var(--font-head);font-size:17px;font-weight:800;
+  background:linear-gradient(135deg,#fff,var(--p3));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.back-btn{
+  font-size:13px;color:var(--p2);font-weight:600;text-decoration:none;
+  padding:6px 14px;border-radius:999px;
+  background:rgba(124,58,237,0.12);border:1px solid rgba(124,58,237,0.25);
+  transition:.2s;
+}
+.back-btn:hover{background:rgba(124,58,237,0.22)}
+
+/* ── Hero ── */
+.hero{
+  text-align:center;padding:48px 20px 32px;
+  background:linear-gradient(180deg,rgba(124,58,237,0.08) 0%,transparent 100%);
+  border-bottom:1px solid var(--border);
+}
+.hero-icon{font-size:48px;margin-bottom:16px}
+.hero h1{
+  font-family:var(--font-head);font-size:28px;font-weight:800;letter-spacing:-.5px;
+  background:linear-gradient(135deg,#fff 0%,var(--p3) 60%,var(--accent) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:10px;
+}
+.hero-meta{font-size:13px;color:var(--text3)}
+.hero-meta span{color:var(--p3)}
+
+/* ── Content ── */
+.content{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+
+.section{margin-bottom:36px}
+.section-title{
+  font-family:var(--font-head);font-size:16px;font-weight:700;
+  color:var(--p3);margin-bottom:12px;
+  display:flex;align-items:center;gap:8px;
+  padding-bottom:10px;border-bottom:1px solid var(--border);
+}
+.section-title .num{
+  width:24px;height:24px;border-radius:50%;
+  background:rgba(124,58,237,0.2);border:1px solid rgba(124,58,237,0.4);
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:800;color:var(--p2);flex-shrink:0;
+}
+p{color:var(--text2);font-size:14px;margin-bottom:10px;line-height:1.8}
+p:last-child{margin-bottom:0}
+
+ul{color:var(--text2);font-size:14px;padding-left:20px;margin-bottom:10px}
+ul li{margin-bottom:6px;line-height:1.8}
+
+.highlight-box{
+  background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.2);
+  border-radius:12px;padding:16px 18px;margin:14px 0;
+}
+.highlight-box p{margin:0;color:var(--text)}
+
+.contact-box{
+  background:var(--bg1);border:1px solid var(--border2);
+  border-radius:14px;padding:20px;text-align:center;margin-top:40px;
+}
+.contact-box h3{
+  font-family:var(--font-head);font-size:16px;font-weight:700;margin-bottom:8px;
+}
+.contact-box p{color:var(--text3);font-size:13px;margin-bottom:14px}
+.contact-link{
+  display:inline-block;color:var(--accent);font-size:13px;font-weight:600;
+  text-decoration:none;padding:8px 20px;
+  background:rgba(34,211,238,0.1);border:1px solid rgba(34,211,238,0.25);
+  border-radius:999px;
+}
+
+/* ── Footer ── */
+footer{
+  text-align:center;padding:20px;
+  border-top:1px solid var(--border);
+  font-size:12px;color:var(--text3);
+}
+footer a{color:var(--p3);text-decoration:none}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <a class="brand" href="/">
+    <div class="brand-logo">✦</div>
+    <div class="brand-name">PixelMind</div>
+  </a>
+  <a class="back-btn" href="/">← Back to App</a>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-icon">🔒</div>
+  <h1>Privacy Policy</h1>
+  <div class="hero-meta">Last updated: <span>May 2026</span> · PixelMind AI</div>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+  <div class="highlight-box">
+    <p><strong>Short version:</strong> PixelMind AI does not collect, store, or sell your personal data. Everything stays on your device. We only use third-party services to generate images and display ads.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">1</span> Who We Are</div>
+    <p>PixelMind AI is a free web application available at <strong>pixel-mind-amber.vercel.app</strong>. It allows users to generate images from text prompts using publicly available AI APIs. The app is provided free of charge and is supported by advertising.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">2</span> Data We Do NOT Collect</div>
+    <p>We do not collect, store, or process any of the following:</p>
+    <ul>
+      <li>Your name, email, or any account information (no login required)</li>
+      <li>Your text prompts or generated images — these are processed directly by third-party AI APIs</li>
+      <li>Your device location</li>
+      <li>Your IP address or browsing history</li>
+      <li>Any payment information</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">3</span> Data Stored on YOUR Device Only</div>
+    <p>The following data is stored locally in your browser's localStorage and never leaves your device:</p>
+    <ul>
+      <li><strong>Generated image history</strong> — your gallery of created images (stored as base64 in your browser)</li>
+      <li><strong>API keys</strong> — if you choose to add HuggingFace, Together.ai, or Stability AI keys</li>
+      <li><strong>Usage limit counter</strong> — tracks your 20 generations per 12-hour window</li>
+      <li><strong>App preferences</strong> — selected model, style, and ratio settings</li>
+    </ul>
+    <p>You can clear all of this at any time via <strong>Settings → Clear Gallery</strong> or by clearing your browser data.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">4</span> Third-Party AI Services</div>
+    <p>When you generate an image, your text prompt is sent to one of these third-party APIs:</p>
+    <ul>
+      <li><strong>Pollinations.ai</strong> — primary image generation (free, no key required)</li>
+      <li><strong>HuggingFace</strong> — fallback generation service</li>
+      <li><strong>Together.ai</strong> — fallback generation service</li>
+      <li><strong>Stability AI</strong> — fallback generation service</li>
+    </ul>
+    <p>These services have their own privacy policies. By using PixelMind AI, you agree that your prompts are sent to these services for processing. We recommend not entering sensitive personal information in your prompts.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">5</span> Advertising</div>
+    <p>PixelMind AI displays advertisements provided by <strong>Monetag</strong> to keep the service free. Monetag may use cookies and similar technologies to serve relevant ads. This may include:</p>
+    <ul>
+      <li>Anonymous usage data for ad targeting</li>
+      <li>Cookie-based tracking for ad frequency management</li>
+    </ul>
+    <p>Monetag's data collection is governed by their own privacy policy at <a href="https://monetag.com/privacy-policy/" target="_blank" style="color:var(--accent)">monetag.com/privacy-policy</a>. You can opt out of personalised ads through your browser settings or by visiting your device's ad settings.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">6</span> Cookies</div>
+    <p>PixelMind AI itself does not set cookies. However, our advertising partner Monetag may set cookies for ad delivery and frequency capping. You can manage or disable cookies through your browser settings at any time.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">7</span> Children's Privacy</div>
+    <p>PixelMind AI is not directed at children under 13 years of age. We do not knowingly collect any information from children. If you believe a child has used our service, please contact us so we can take appropriate action.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">8</span> Changes to This Policy</div>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. Continued use of PixelMind AI after changes constitutes your acceptance of the updated policy.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">9</span> Your Rights</div>
+    <p>Since we do not collect personal data on our servers, there is no data to request, modify, or delete from our end. All your data is stored locally on your device and you are in full control of it. You can delete it anytime by clearing your browser storage.</p>
+  </div>
+
+  <div class="contact-box">
+    <h3>Questions or Concerns?</h3>
+    <p>If you have any questions about this Privacy Policy, feel free to reach out.</p>
+    <a class="contact-link" href="mailto:support@pixelmind.app">Contact Us</a>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 PixelMind AI · <a href="/">Back to App</a></p>
+</footer>
+
+</body>
+</html>
